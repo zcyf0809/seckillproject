@@ -1,0 +1,13 @@
+server:
+  port: 8081
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+
+spring:
+  datasource:
+    name: seckill
+    url: jdbc:mysql://127.0.0.1:3306/seckill
+    username: root
+    password: admin
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
